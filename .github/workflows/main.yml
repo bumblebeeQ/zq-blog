@@ -22,7 +22,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ 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 }} # 填写你自己的 personal_token
+          personal_token: ${{ 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 }} # 填写你自己的 personal_token
           PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
           PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
           commit_message: ${{ github.event.head_commit.message }}
